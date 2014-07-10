@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Goroutine::VERSION
   spec.authors       = ["Davide D'Agostino"]
   spec.email         = ["info@daddye.it"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{A simple goroutine model for ruby.}
+  spec.description   = spec.summary
+  spec.homepage      = "https://github.com/DAddYE/goroutine"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
